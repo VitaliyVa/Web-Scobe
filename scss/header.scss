@@ -1,0 +1,33 @@
+.header {
+	background: url('../img/bg-header.png') center top no-repeat / cover;
+				
+	
+	
+}
+.header-block {
+	display: flex;
+	justify-content: space-between;
+}
+.img-pc {
+	margin-top: -80px;
+	width: 80%;
+	padding-bottom: 80px;
+}
+.header__text {
+	max-width: 700px;
+	font-weight: 700;
+	color: #D3A543;
+	font-size: 40pt;
+	text-align: right;
+	margin-top: 40px;
+	margin-right: 60px;
+}
+.text__title {
+
+}
+.sub__title {
+	text-transform: uppercase;
+	padding-top: 50px;
+}
+
+

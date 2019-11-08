@@ -1,0 +1,49 @@
+.typography {
+	background-color: #0E213F;
+	padding-bottom: 150px;
+
+
+	.fix_width {
+		margin-bottom: 200px;
+	}
+
+	.shadow__element {
+
+		color: #9BABD8;
+	}
+	.text-wrap {
+		
+		padding-left: 0;
+	
+	}
+}
+.brand {
+	color: #D3A543;
+}
+.font-wrap {
+	
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.font-profile {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	
+	margin-left: 100px;
+
+}
+.font-img {
+	max-width: 400px;
+	margin-right: 80px;
+}
+.font-title-wrap {
+	max-width: 913px;
+	align-items: center;
+	text-align: right;
+	margin: 0 auto;
+}
+#text-wrap-1 {
+	margin-left: 113px;
+}
