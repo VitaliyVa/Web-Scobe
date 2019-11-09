@@ -74,6 +74,8 @@
 .home_page {
   background-color: #F5F5F5;
   height: 900px; }
+  .home_page .lang-block {
+    margin-top: 150px; }
 
 .fix_width {
   opacity: 0; }
@@ -228,7 +230,7 @@
     top: -40%; } }
 @media (max-width: 561px) {
   .home_page {
-    height: 700px; } }
+    height: 800px; } }
 .desktop-main {
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 38px -12px #24298f;
@@ -832,6 +834,10 @@ textarea::placeholder {
     .city-profile .line-center {
       display: none; } }
 @media (max-width: 1080px) {
+  .soc-profile {
+    margin-right: 5px;
+    width: 50%; }
+
   .blog-profile {
     min-height: 350px; }
 
@@ -969,6 +975,24 @@ textarea::placeholder {
     width: 312px;
     margin: 0 auto; } }
 @media (max-width: 432px) {
+  .footer-content-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .left-content {
+    width: 90%;
+    margin-right: 0px;
+    margin: 0 auto; }
+
+  .soc-profile {
+    margin-right: 15px;
+    width: 15%; }
+
+  .right-content {
+    border-left: none; }
+
   .pre-btn-wrap .btn {
     width: 105px;
     height: 32px;
@@ -991,15 +1015,6 @@ textarea::placeholder {
 @media (max-width: 378px) {
   .blog-profile {
     min-height: 100px; } }
-@media (max-width: 584px) {
-  .main-header__title {
-    padding-left: 0; }
-
-  .shadow__element {
-    font-size: 59pt;
-    opacity: 0.1;
-    position: absolute;
-    top: -40%; } }
 .more-mobile-block img {
   min-height: 850px; }
 

@@ -544,6 +544,10 @@ textarea::placeholder {
 	}
 }
 @media (max-width: 1080px) {
+	.soc-profile {
+    margin-right: 5px;
+    width: 50%;
+	}
 	.blog-profile {
 		min-height: 350px;
 		
@@ -731,6 +735,22 @@ textarea::placeholder {
 	}
 }
 @media (max-width: 432px) {
+
+	.footer-content-wrap {
+		flex-direction: column;
+	}
+	.left-content {
+    width: 90%;
+     margin-right: 0px;
+    margin: 0 auto;
+	}
+	.soc-profile {
+    margin-right: 15px;
+    width: 15%;
+	}
+	.right-content {
+		border-left: none;
+	}
 	.pre-btn-wrap {
 		.btn {
 			width: 105px;
@@ -764,14 +784,3 @@ textarea::placeholder {
 
 }
 
-@media (max-width: 584px) {
-	.main-header__title {
-		padding-left: 0;
-	}
-	.shadow__element {
-			    font-size: 59pt;
-    opacity: 0.1;
-    position: absolute;
-    top: -40%;
-	}
-}

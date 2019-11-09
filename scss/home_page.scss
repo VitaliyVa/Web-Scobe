@@ -1,6 +1,10 @@
 .home_page {
 	background-color: #F5F5F5;
 	height: 900px;
+
+	.lang-block {
+		margin-top: 150px;
+	}
 }
 .fix_width {
 	opacity: 0;
@@ -151,7 +155,7 @@
 }
 @media (max-width: 561px) {
 	.home_page {
-		height: 700px;
+		height: 800px;
 	}
 	
 }
