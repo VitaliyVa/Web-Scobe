@@ -37,6 +37,11 @@
 .font-img {
 	max-width: 400px;
 	margin-right: 80px;
+
+	img {
+	
+		min-height: 80px;
+	}
 }
 .font-title-wrap {
 	max-width: 913px;
@@ -46,4 +51,57 @@
 }
 #text-wrap-1 {
 	margin-left: 113px;
+}
+@media (max-width: 642px) {
+	#text-wrap-1 {
+		margin-left: 0;
+		margin-left: 30px;
+	}
+	.typography {
+		.text-wrap {
+			width: 650px;
+			margin-left: 30px;
+		}
+	}
+}
+@media (max-width: 598px) {
+	.font-img {
+		
+
+		img {
+			
+			min-height: 50px;
+		}
+	}
+}
+@media (max-width: 584px) {
+	.typography {
+		.fix_width {
+    margin-bottom: 100px;
+		}
+	}
+}
+@media (max-width: 642px) {
+	.shar-img {
+    margin-bottom: -19px;
+	}
+}
+@media (max-width: 444px) {
+	.font-profile {
+		margin-left: 31px;
+	}
+	.shar-img {
+    margin-bottom: -13px;
+	}
+
+}
+@media (max-width: 420px) {
+	.font-img {
+		
+
+		img {
+			
+			min-height: 35px;
+		}
+	}
 }

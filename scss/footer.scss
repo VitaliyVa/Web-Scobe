@@ -55,6 +55,51 @@ footer {
 	padding-bottom: 50px;
 	
 }
+@media (max-width: 860px) {
+	.text-center-wrap {
+    padding-right: 0;
+    width: 80%;
+	}
+	.center-logo-wrap {
+		flex-direction: column;
+
+
+		.line-center {
+			display: none;
+		}
+		.text__paragraph {
+			text-align: justify;
+		}
+	}
+}
+@media (max-width: 478px) {
+	.main-header__title {
+		padding-left: 0;
+		font-size: 32pt;
+	}
+	.shadow__element {
+	    font-size: 50pt;
+    opacity: 0.1;
+    position: absolute;
+    top: -40%;
+
+	}
+
+}
+@media (max-width: 410px) {
+	.main-header__title {
+		padding-left: 0;
+		font-size: 22pt;
+	}
+	.shadow__element {
+	    font-size: 39pt;
+    opacity: 0.1;
+    position: absolute;
+    top: -54%;
+
+	}
+	
+}
 @media (max-width: 952px) {
 	.footer-block {
 	background: url(../img/footer-bg.png) no-repeat center top 20px;

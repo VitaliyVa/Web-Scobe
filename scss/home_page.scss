@@ -118,6 +118,44 @@
 	font-size: 24pt;
 	font-weight: 700;
 }
+@media (max-width: 785px) {
+	.text-wrap {
+		width: 500px;
+		align-items: center;
+		margin: 0 auto;
+		text-align: justify;
+		padding: 0 20px;
+	}
+}
+@media (max-width: 737px) {
+	.shadow__element {
+			    font-size: 72pt;
+		    opacity: 0.1;
+		    position: absolute;
+		    top: -67%;
+		   
+	}
+}
+@media (max-width: 584px) {
+
+
+	.main-header__title {
+		padding-left: 0;
+	}
+	.shadow__element {
+			    font-size: 59pt;
+    opacity: 0.1;
+    position: absolute;
+    top: -40%;
+	}
+}
+@media (max-width: 561px) {
+	.home_page {
+		height: 700px;
+	}
+	
+}
+
 
 
 
