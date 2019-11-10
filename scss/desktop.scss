@@ -184,7 +184,7 @@
     justify-content: space-between;
     max-width: 380px;
     height: auto;
-    padding: 0 10px;
+    padding: 0 20px;
 
 	img {
 		min-height: 600px;
@@ -445,13 +445,14 @@
     width: 158px;
     height: 25px;
     padding-left: 15px;
+    margin-top: 10px;
 }
 .main-input {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
 	max-width: 350px;
-	height: 65px;
+	
 	
 	
 	margin-left: 10%;
@@ -529,7 +530,7 @@ textarea::placeholder {
     min-height: 105px;
 	}
 	.city-profile img {
-	    min-height: 515px;
+	    min-height: 480px;
 	}
 	.city-block {
 		flex-direction: column;
@@ -541,6 +542,12 @@ textarea::placeholder {
 		.line-center {
 			display: none;
 		}
+	}
+}
+@media (max-width: 500px) {
+	
+	.city-profile img {
+	    min-height: 400px;
 	}
 }
 @media (max-width: 1080px) {
@@ -642,6 +649,10 @@ textarea::placeholder {
 	}
 }
 @media (max-width: 604px) {
+	.practice-areas .kolo-wrap img {
+	    width: 53%;
+	    display: none;
+	}
 	.center-logo-block {
 			.btn {
 		    width: 134px;
@@ -714,7 +725,6 @@ textarea::placeholder {
    
 	}
 	.comment {
-		margin-top: 82px;
 		margin-left: 27%;
 		width: 173px;
 	}

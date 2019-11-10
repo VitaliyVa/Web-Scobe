@@ -72,7 +72,7 @@ footer {
 		}
 	}
 }
-@media (max-width: 478px) {
+@media (max-width: 514px) {
 	.main-header__title {
 		padding-left: 0;
 		font-size: 32pt;
@@ -86,7 +86,7 @@ footer {
 	}
 
 }
-@media (max-width: 410px) {
+@media (max-width: 438px) {
 	.main-header__title {
 		padding-left: 0;
 		font-size: 22pt;
@@ -96,6 +96,20 @@ footer {
     opacity: 0.1;
     position: absolute;
     top: -54%;
+
+	}
+	
+}
+@media (max-width: 345px) {
+	.main-header__title {
+		padding-left: 0;
+		font-size: 22pt;
+	}
+	.shadow__element {
+	    font-size: 34pt;
+	        opacity: 0.1;
+	        position: absolute;
+	        top: -45%;
 
 	}
 	
@@ -154,5 +168,4 @@ footer {
 	background-size: 130%;
 	}
 }
-
 
